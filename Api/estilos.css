@@ -1,0 +1,101 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: grid;   
+    place-items: center;
+    background: radial-gradient(#a65e2e, #6c4675);
+}
+header
+{
+    top: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background: radial-gradient(#a65e2e, #6c4675);
+    padding: 2px;
+    border-radius: 20px;
+    z-index: 2px;
+    gap: 2rem;
+}
+main
+{
+    display: flex;
+    padding: 100px;
+    gap: 2rem;
+    font-size: 15px;   
+}
+section
+{
+    border: none;
+    border-radius: 20px;
+    height: 550px;
+    max-width: 50%;
+    text-align: center;
+    line-height: 30px;/*separa los elementos*/
+    overflow: auto;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #6c4675 ;
+}
+#API>img
+{
+    max-width: 50%;
+    max-height: 50%;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 100%;
+}
+div
+{
+    padding: 10px;
+}
+div>button,#API>button
+{
+    width: 50%;
+    height: 40px;
+}
+
+button
+{
+    border-radius: 20px;
+    border: none;
+    height: 200%;
+    width: 100%;
+    cursor: pointer;
+    background-color:#a10684;
+}
+aside
+{
+    border: none;
+    border-radius: 20px;
+    background-color: #a65e2e;
+    float: left;
+    height: 550px;
+    max-width: 50%;
+    text-align: center;
+    line-height: 30px;/*separa los elementos*/
+    padding: 10px;
+    overflow: auto;
+    overflow-y: auto;
+}
+aside>img
+{
+    max-width: 40%;
+    max-height: 40%;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 100%;
+    color: #1e1e1e;
+}
+button:active
+{
+    background-color: white;
+    color: black;
+}
+button:hover
+{
+    background-color: #4e0041 ;
+    color: #6c4675;
+    
+}
